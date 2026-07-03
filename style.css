@@ -1,0 +1,18 @@
+
+  /* tags selector  */
+
+     h2 {color: red;} 
+
+ /* id selector  */
+       
+     #head-2 {
+      color: forestgreen;
+      font-size: 50px;        
+    }  
+
+  /* class selector */
+    
+      .theme-font {
+       color: saddlebrown;
+      text-align: center;
+      }  
