@@ -1,18 +1,58 @@
+/* tags selector  */
 
-  /* tags selector  */
+h2 {
+  color: red;
+}
 
-     h2 {color: red;} 
+/* id selector  */
 
- /* id selector  */
-       
-     #head-2 {
-      color: forestgreen;
-      font-size: 50px;        
-    }  
+#head-2 {
+  color: forestgreen;
+  font-size: 50px;
+}
 
-  /* class selector */
-    
-      .theme-font {
-       color: saddlebrown;
-      text-align: center;
-      }  
+/* class selector */
+
+.theme-font {
+  color: saddlebrown;
+  text-align: center;
+}
+#duck{
+  width: 100%;
+  border-radius: 10px;
+}
+#duck1{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%
+}
+h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+#para{
+   font-family: "IBM Plex Mono", monospace;
+   /* line-height: 22px; */
+}
+.card{
+  border: 1px solid #bf040d;
+  padding: 15px;
+
+  /* padding: 15px 20px 25px 30px;
+               t    r    b    l */
+
+   /* padding-left: 15;
+   padding-top: 20;
+   padding-right: 25;
+   padding-bottom: 30; */
+
+   margin: 15px;
+}
+.card-1{
+  border: 1px solid red;
+  padding: 15px;
+  margin: 15px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: rgb(255, 217, 172);
+}
