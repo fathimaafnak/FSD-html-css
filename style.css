@@ -139,6 +139,40 @@ header {
 }
 }
 
+/* css grid */
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;  
+  .card-item{
+    border: 1px solid #010200;
+  }
+}
+
+/* css media query */
+
+.css-media-query{
+  background-color: aquamarine;
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 768px){
+  .css-media-query {
+    background-color: red
+  }
+}
+
+@media (max-width: 400px){
+  .css-media-query {
+    background-color: blue;
+  }
+}
 
 
-
+/* @media (min-width: 400px){
+  .css-media-query {
+    background-color: blue;
+  }
+} */
